@@ -1,0 +1,27 @@
+camel:
+  springboot:
+    # The Camel context name
+    name: CamelRestJpa
+    
+mysql:
+  service:
+    # The host of the MySQL database server, can be customized using
+    # the 'MYSQL_SERVICE_HOST' env variable
+    host:     127.0.0.1
+    # The port of the MySQL database server, can be customized using
+    # the 'MYSQL_SERVICE_PORT' env variable
+    port:     3306
+    # The database to use, can be customized using the 'MYSQL_SERVICE_DATABASE'
+    # env variable
+    database: jpatest
+
+spring:
+  # Spring JDBC configuration
+  datasource:
+    url:      jdbc:mysql://${mysql.service.host}:${mysql.service.port}/${mysql.service.database}
+    username: jpatest
+    password: jpatest
+
+  # Spring Data JPA configuration
+  jpa:
+    show-sql: false

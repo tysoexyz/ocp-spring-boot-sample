@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: camel-jpa-nesting
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: tysoe
+Implementation-Vendor-Id: xyz.tysoe.cameljpa
+Build-Jdk: 1.8.0_66
+Implementation-URL: http://projects.spring.io/spring-boot/camel-jpa-ne
+ sting/
+Created-By: Maven Integration for Eclipse
+Implementation-Vendor: Pivotal Software, Inc.
+
